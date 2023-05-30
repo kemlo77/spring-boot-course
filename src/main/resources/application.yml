@@ -1,0 +1,16 @@
+management:
+  info:
+    env:
+      enabled: true
+    java:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+info:
+  app:
+    name: My Super Cool App
+    description: A crazy and fun app, Yoohoo!
+    version: 1.0.0
