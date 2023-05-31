@@ -1,3 +1,9 @@
+spring:
+  security:
+    user:
+      name: fredrik
+      password: potatis
+
 management:
   info:
     env:
@@ -7,10 +13,14 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info
+        include: health,info,mappings
+
+player:
+  name: Patrick Polly
 
 info:
   app:
     name: My Super Cool App
     description: A crazy and fun app, Yoohoo!
     version: 1.0.0
+
