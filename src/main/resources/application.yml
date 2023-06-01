@@ -3,6 +3,12 @@ spring:
     user:
       name: fredrik
       password: potatis
+  datasource:
+    #url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/student_tracker
+    url: jdbc:mysql://localhost:3306/student_tracker
+    username: marie
+    password: curie
+
 
 management:
   info:
@@ -24,3 +30,4 @@ info:
     description: A crazy and fun app, Yoohoo!
     version: 1.0.0
 
+#Exempel kommentar
