@@ -6,7 +6,7 @@ spring:
       name: fredrik
       password: potatis
   datasource:
-    url: jdbc:mysql://localhost:3306/student_tracker
+    url: jdbc:mysql://localhost:3306/employee_directory
     username: marie
     password: curie
   jpa:
