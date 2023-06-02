@@ -1,13 +1,19 @@
 spring:
+  main:
+    banner-mode: off
   security:
     user:
       name: fredrik
       password: potatis
   datasource:
-    #url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/student_tracker
     url: jdbc:mysql://localhost:3306/student_tracker
     username: marie
     password: curie
+  jpa:
+    show-sql: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
 
 
 management:
@@ -30,4 +36,11 @@ info:
     description: A crazy and fun app, Yoohoo!
     version: 1.0.0
 
-#Exempel kommentar
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+        orm:
+          jdbc:
+            bind: trace
