@@ -4,7 +4,7 @@ services:
     image: mysql:8.0.33
     container_name: mysql-db
     environment:
-      MYSQL_DATABASE: 'student_tracker'
+      MYSQL_DATABASE: 'employee_directory'
       MYSQL_USER: 'marie'
       MYSQL_PASSWORD: 'curie'
       MYSQL_ROOT_PASSWORD: 'radium'
