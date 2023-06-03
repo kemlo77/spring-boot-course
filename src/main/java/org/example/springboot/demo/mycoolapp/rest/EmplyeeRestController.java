@@ -1,6 +1,5 @@
 package org.example.springboot.demo.mycoolapp.rest;
 
-import org.example.springboot.demo.mycoolapp.dao.EmployeeDAO;
 import org.example.springboot.demo.mycoolapp.entity.Employee;
 import org.example.springboot.demo.mycoolapp.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
